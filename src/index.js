@@ -2,7 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Card from './components/card';
+import Cards from './components/cards';
+import Column from './components/column';
+import Columns from './components/columns'; //TODO: columns is just the app --> move to the app 
+import 'bootstrap/dist/css/bootstrap.css';
 import * as serviceWorker from './serviceWorker';
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
